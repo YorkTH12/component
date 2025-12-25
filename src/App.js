@@ -1,16 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import { Header, Body, Footer } from './func-components';
-import Calendar from './func-components';
-import Msgbox from './class-props';
+
+import { MsgBox2 } from './func-components';
 
 function App() {
   return (
-    <Msgbox
-      text="React & React Native"
+    <MsgBox2
+      text="การใช้ props ใน Functional Component"
       border="solid 1px black"
       bgColor="#ccc"
-      color="blue"
+      color="red"
       fontSize="18pt"
     />
   );
