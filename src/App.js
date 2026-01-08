@@ -1,6 +1,6 @@
 import './App.css';
-import { Calculator2 } from './calculator';
 
+import {EventData2} from './event-data'
 function App() {
   return (
     // <MsgBox2
@@ -11,7 +11,8 @@ function App() {
     //   fontSize="18pt"
     // />
     // <Button/>
-    <Calculator2/>
+    // <Calculator2/>
+    <EventData2/>
   );
 }
 
