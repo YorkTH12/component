@@ -1,7 +1,5 @@
 import './App.css';
-import Button from './class-components';
-
-import { MsgBox2 } from './func-components';
+import { Calculator2 } from './calculator';
 
 function App() {
   return (
@@ -12,7 +10,8 @@ function App() {
     //   color="red"
     //   fontSize="18pt"
     // />
-    <Button/>
+    // <Button/>
+    <Calculator2/>
   );
 }
 
