@@ -1,6 +1,5 @@
 import './App.css';
-
-import {EventData2} from './event-data'
+import RefsArray from './refs-array';
 function App() {
   return (
     // <MsgBox2
@@ -12,7 +11,8 @@ function App() {
     // />
     // <Button/>
     // <Calculator2/>
-    <EventData2/>
+    // <EventData2/>
+    <RefsArray/>
   );
 }
 
