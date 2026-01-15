@@ -1,5 +1,7 @@
 import './App.css';
 import RefsArray from './refs-array';
+import MessageBox from './state-func';
+
 function App() {
   return (
     // <MsgBox2
@@ -12,7 +14,8 @@ function App() {
     // <Button/>
     // <Calculator2/>
     // <EventData2/>
-    <RefsArray/>
+
+    <MessageBox/>
   );
 }
 
